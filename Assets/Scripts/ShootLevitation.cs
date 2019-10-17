@@ -18,8 +18,12 @@ public class ShootLevitation : MonoBehaviour
 
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
         {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
-            Debug.Log("Hit Somthing");
+            if (Input.GetKey(KeyCode.Y) || OVRInput.Get(OVRInput.RawButton.Y))
+            {
+                Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
+                Debug.Log("Hit Somthing");
+            }
+            
         }
     }
 }
