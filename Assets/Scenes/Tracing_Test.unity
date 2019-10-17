@@ -394,7 +394,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161369740}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 3.52, y: 1.63, z: -8.52}
+  m_LocalPosition: {x: 7.25, y: 1.63, z: 2.93}
   m_LocalScale: {x: 0.11092408, y: 0.11092408, z: 0.11092408}
   m_Children:
   - {fileID: 1261776592}
@@ -489,7 +489,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164054041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.67, y: 1.4725287, z: -9.266938}
+  m_LocalPosition: {x: -0.763, y: 1.4725287, z: -9.266938}
   m_LocalScale: {x: 0.035878554, y: 0.03587858, z: 0.37058878}
   m_Children:
   - {fileID: 295757962}
@@ -1413,6 +1413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1211128079}
   - component: {fileID: 1211128080}
+  - component: {fileID: 1211128081}
   m_Layer: 0
   m_Name: ShootPoint
   m_TagString: Untagged
@@ -1452,6 +1453,18 @@ MonoBehaviour:
   shootpoint: {fileID: 1211128079}
   shootRate: 0.5
   shootForce: 500
+--- !u!114 &1211128081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211128078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e29f04457afb24ca2221918af6f1b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1250679213
 GameObject:
   m_ObjectHideFlags: 0
